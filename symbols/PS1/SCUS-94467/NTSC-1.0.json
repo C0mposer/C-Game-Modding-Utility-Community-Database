@@ -1,0 +1,63 @@
+{
+    "game_id": "SCUS-94467",
+    "game_name": "Spyro: Year of the Dragon",
+    "platform": "PS1",
+    "main_executable": "SCUS_944.67",
+    "file_hash": "CB819EE78C556D403779309859CB08A7111331F624759BC1BC380946261BB26E",
+    "version": "NTSC-1.0",
+    "author": "Composer",
+    "symbols": [
+        {
+            "name": "lives",
+            "address": "0x8006C784",
+            "type": "int",
+            "signed": true,
+            "size_bytes": 4,
+            "category": "Spyro Data",
+            "description": "Spyro's life count"
+        },
+        {
+            "name": "DrawText",
+            "address": "0x8002e748",
+            "type": "function",
+            "return_type": "void",
+            "parameters": [
+                {
+                    "name": "text",
+                    "type": "char*"
+                },
+                {
+                    "name": "x",
+                    "type": "int"
+                },
+                {
+                    "name": "y",
+                    "type": "int"
+                },
+                {
+                    "name": "color",
+                    "type": "int"
+                },
+                {
+                    "name": "unk",
+                    "type": "int*"
+                }
+            ],
+            "category": "Graphics Functions",
+            "description": "Draws text to the screen"
+        },
+        {
+            "name": "spyro_position",
+            "address": "0x80070328",
+            "type": "struct",
+            "struct_type": "Vec3",
+            "category": "Spyro Data"
+        }
+    ],
+    "custom_types": [
+        {
+            "name": "Vec3",
+            "definition": "typedef struct { int x, y, z; } Vec3;"
+        }
+    ]
+}
