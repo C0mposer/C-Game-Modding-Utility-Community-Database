@@ -1,0 +1,14 @@
+{
+    "symbol_sets": [
+        {
+            "game_id": "SCUS-94467",
+            "game_name": "Spyro: Year of the Dragon",
+            "platform": "PS1",
+            "main_executable": "SCUS_944.67",
+            "file_hash": "CB819EE78C556D403779309859CB08A7111331F624759BC1BC380946261BB26E",
+            "version": "NTSC-1.0",
+            "author": "Composer",
+            "path": "symbols/PS1/SCUS-94467/NTSC-1.0.json"
+        }
+    ]
+}
